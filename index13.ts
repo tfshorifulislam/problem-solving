@@ -1,9 +1,17 @@
 
 
-const removeDuplicates = (arr: number[]): number[] => {
+// const removeDuplicates = (arr: number[]): number[] => {
 
+//     return (
+//         [...new Set(arr)]
+//     )
+// }
+
+
+
+const removeDuplicates = (arr: number[]): number[] => {
     return (
-        [...new Set(arr)]
+        arr.filter((item, index) => arr.indexOf(item) === index)
     )
 }
 
