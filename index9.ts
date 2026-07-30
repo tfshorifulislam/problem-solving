@@ -23,3 +23,29 @@ const titleCase = (str: string): string => {
 
 console.log(titleCase("hello world"));
 console.log(titleCase("typescript is awesome"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const upperCase = (srt: string):void[] => {
+
+    return(
+        srt.split(' ').map(letter =>{
+            letter.charAt(0).toUpperCase + letter.slice(1)
+        })
+    )
+
+}
+
+console.log(titleCase("tofa"));
+console.log(titleCase("tf shoriful islam"))
