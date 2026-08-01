@@ -31,8 +31,18 @@
 //     return Math.max(a, b, c)
 // }
 
+const largestNumber = (a, b, c) => {
+    if (a > b && a > c) {
+        return a;
+    }
+    else if (b > a && b > c) {
+        return b;
+    }
+    else {
+        return c;
+    }
+}
 
 
-
-console.log(largestNumber(3, 7, 5));  
+console.log(largestNumber(3, 7, 5));
 console.log(largestNumber(50, 5, 30));
