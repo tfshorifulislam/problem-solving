@@ -29,11 +29,22 @@
 
 
 
-const sumArry = (arr:number[]):number => {
+// const sumArry = (arr:number[]):number => {
+//     return(
+//         arr.reduce((a,b) => a + b, 0)
+//     )
+// }
+
+
+
+
+
+
+const sumArray = (array:number[]):number => {
     return(
-        arr.reduce((a,b) => a + b, 0)
+        array.reduce((a,b) => a + b, 0)
     )
 }
 
-console.log(sumArry([1, 2, 3, 4, 5]));
-console.log(sumArry([10, 20, 30]));
+console.log(sumArray([1, 2, 3, 4, 5]));
+console.log(sumArray([10, 20, 30]));
