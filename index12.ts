@@ -16,10 +16,31 @@
 
 
 
-const findMax = (arr: number[]): number => {
-    let max = arr[0]
+// const findMax = (arr: number[]): number => {
+//     let max = arr[0]
 
-    for (let num of arr) {
+//     for (let num of arr) {
+//         if (num > max) {
+//             max = num
+//         }
+//     }
+
+//     return max
+// }
+
+
+
+
+
+
+
+
+
+
+const findMax = (array: number[]): number => {
+    let max = array[0]
+
+    for (let num of array) {
         if (num > max) {
             max = num
         }
