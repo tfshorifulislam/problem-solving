@@ -50,11 +50,22 @@
 // console.log(sumArray([10, 20, 30]));
 
 
+// const sumArray = (array: number[]): number => {
+//     let sum = 0;
+
+//     for (const number of array) {
+//         sum += number;
+//     }
+
+//     return sum;
+// };
+
+
 const sumArray = (array: number[]): number => {
     let sum = 0;
 
-    for (const number of array) {
-        sum += number;
+    for (let i = 0; i < array.length; i++) {
+        sum += array[i];
     }
 
     return sum;
