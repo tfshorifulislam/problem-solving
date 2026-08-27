@@ -51,8 +51,15 @@
 
 
 
+// const findMax = (array: number[]): number => {
+//     return Math.max(...array);
+// };
+
+
 const findMax = (array: number[]): number => {
-    return Math.max(...array);
+    return array.reduce((max, num) => {
+        return num > max ? num : max;
+    }, array[0]);
 };
 
 console.log(findMax([10, 5, 20, 8, 15])); // 20
