@@ -1,16 +1,4 @@
 
-
-// const titleCase = (str: string): string => {
-
-//     return (
-//         str.split(' ')
-//             .map(letter => letter.charAt(0).toUpperCase() + letter.slice(1).toLowerCase())
-//             .join(' ')
-//     )
-
-// }
-
-
 const titleCase = (str: string): string => {
 
     const letter = str.split(' ');
@@ -25,32 +13,6 @@ console.log(titleCase("hello world"));
 console.log(titleCase("typescript is awesome"))
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-// const upperCase = (srt: string):void[] => {
-
-//     return(
-//         srt.split(' ').map(letter =>{
-//             letter.charAt(0).toUpperCase + letter.slice(1)
-//         })
-//     )
-
-// }
-
-// console.log(titleCase("tofa"));
-// console.log(titleCase("tf shoriful islam"))
-
-
 const upperCase = (srt: string):void[] => {
 
     return(
@@ -61,5 +23,5 @@ const upperCase = (srt: string):void[] => {
 
 }
 
-console.log(titleCase("tofa"));
-console.log(titleCase("tf shoriful islam"))
+console.log(upperCase("tofa"));
+console.log(upperCase("tf shoriful islam"))
