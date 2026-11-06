@@ -4,8 +4,8 @@ const user = {
   age: 25,
 };
 
-const { firstName: name, lastName, age } = user;
+const { firstName, lastName, age } = user;
 
-console.log(name);      // Sara
-console.log(lastName);  // Khan
-console.log(age);       // 25
+console.log(firstName); // Sara
+console.log(lastName); // Khan
+console.log(age); // 25
