@@ -4,4 +4,4 @@ const add = (a) => {
   };
 };
 
-console.log(add(2)(3)); // 5
+console.log(add(2)(3));
